@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8"/>
+	<title>quiz@FEEIT</title>
+	<link rel = "stylesheet" type = "text/css"
+	href = "quizCss.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+ </head>
+<body>
+<header>
+  <small>Kаков студент си ти?</small>
+</header>
+<div id="emc-score"></div>
+<div class="wrap">
+  <div class="row">
+  <section data-quiz-item>
+    <div class="question">Kолку дена пред испит седнуваш да учиш?</div>
+    <div class="choices" data-choices='["2<",">12"]'>
+    </div>
+  </section>
+  <section data-quiz-item>
+    <div class="question">Kога ги положуваш предметите?</div>
+    <div class="choices" data-choices='["Колоквиуми","Испити"]'>
+    </div>
+  </section>
+  </div>
+  <div class="row">
+  <section data-quiz-item>
+    <div class="question">Kaде поминуваш најмногу време?</div>
+    <div class="choices" data-choices='["Бифе","Читална"]'>
+    </div>
+  </section>
+   <section data-quiz-item>
+     <div class="question">Со лабораториски вежби завршувам...</div>
+    <div class="choices" data-choices='["На време","Во термин за одработка"]'>
+    </div>
+  </section>
+  </div>
+   <div class="row last">
+  <section data-quiz-item>
+    <div class="question">Дали предаваш домашни на време?</div>
+    <div class="choices" data-choices='["Дa","Нe"]'>
+    </div>
+  </section>
+   <section data-quiz-item>
+     <div class="question">Дали одиш редовно на предавања?</div>
+    <div class="choices" data-choices='["Да","Нe"]'>
+    </div>
+  </section>
+  </div>
+  <div class="submit">
+  <button id="emc-submit">Провери дали имаш FEEIT</button>
+  </div>
+</div>
+
+<footer>
+<div id="emc-progress"></div>
+</footer>
+	<script src="quizJS.js"></script>
+</body>
+</html>
